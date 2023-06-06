@@ -1,0 +1,116 @@
+* {
+    font-family: 'Cairo'
+}
+body {
+    background-image: url(Backgraund_auto_x2.jpg);
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+    gap: 2px 2px;
+}
+
+.parent div {
+    font-size: 20px;
+    padding: 20px;
+    color: #5A5A5A;
+    text-align: center;
+}
+
+.back {
+    background-color: #fafafa;
+    transition-duration: 0.3s;
+    
+}
+
+.back:hover {
+    box-shadow: 0px 4px 11px 0px #94949466;
+    margin: 10px 0;
+}
+
+.wimg {
+    width: 225px;
+    height: 337.80px;
+}
+.width1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+.width2 {
+    width: 1108px;
+    border: 1px solid #616161;
+    border-radius: 17px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -8%);
+}
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    list-style-position: outside;
+    display: block;
+    position: relative;
+    color: #616161;
+    right: 20px;
+
+}
+li {
+    display: inline;
+    margin: 10px;
+    padding: auto;
+}
+.q {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+}
+.user-icon::before {
+    content: "\f007";
+    position: absolute;
+    left: 10%;
+    top: 0%;
+}
+
+.title-h2 {
+    
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.3px;
+    /* text-decoration: revert; */
+    color: #949494;
+    /* width: 148.45px; */
+    /* display: inline;*/
+}
+
+.title-h2::after {
+    content: "";
+    position: absolute;
+    top: 30%;
+    right: 6%;
+    height: 3px;
+    width: 88%;
+    background-color: #949494;
+
+}
+.roro {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -1%);
+}
+a {
+    text-decoration: none;
+}
